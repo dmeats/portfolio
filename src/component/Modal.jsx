@@ -1,4 +1,4 @@
-import React, {forwardRef, useImperativeHandle} from "react";
+import React, {forwardRef, useEffect, useImperativeHandle} from "react";
 import ReactDOM from "react-dom";
 import './Modal.css'
 
@@ -19,6 +19,23 @@ const Modal = forwardRef((props,ref) => {
   const close = () => {
     setDisplay(false);
   };
+
+  useEffect (()=>{
+    window.addEventListener('keydown', (event) => {
+      // ...
+    
+      const keyName = event.key;
+      console.log(keyName);
+      
+      if (keyName === 'Escape') {
+      close()
+      }
+
+      
+
+    });
+    
+  },[])
 
   if (display) {
     return ReactDOM.createPortal(
