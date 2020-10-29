@@ -1,0 +1,11 @@
+#canvas{
+
+    position: absolute;
+    top:1px ;
+    right: 1px;
+    background-color: transparent;
+    height:100%;
+    width:100%;
+    border-color: rgb(152, 230, 226);
+    z-index: 0;
+}

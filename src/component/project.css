@@ -1,0 +1,204 @@
+.Project-container{
+position: fixed;
+margin-left:20px;
+top: 40px;
+height: 650px;
+width:85%;
+background-color: rgba(171, 171, 204, 0.2);
+border-radius: 45px;
+overflow-y: scroll;
+scrollbar-width: wide;
+scrollbar-color:  rgb(34, 134, 165) orange;
+z-index: 1;
+
+}
+.Skills-container{
+  position: fixed;
+  margin-left:20px;
+  top: 200px;
+  height: 350px;
+  width:85%;
+  background-color: rgba(171, 171, 204, 0.2);
+  border-radius: 45px;
+  overflow-y: scroll;
+  scrollbar-width: wide;
+  scrollbar-color:  rgb(34, 134, 165) orange;
+  
+  }
+
+/* Designing for scroll-bar */ 
+::-webkit-scrollbar { 
+  width: 6px; 
+} 
+
+/* Track */ 
+::-webkit-scrollbar-track { 
+  background:  orange;
+  border-radius: 45px;
+  height: 200px; 
+} 
+
+/* Handle */ 
+::-webkit-scrollbar-thumb { 
+  background: rgb(34, 134, 165); 
+  border-radius: 45px; 
+} 
+
+/* Handle on hover */ 
+::-webkit-scrollbar-thumb:hover { 
+  background: rgb(250, 2, 2); 
+} 
+.project{
+  opacity: .9;
+  padding-top: 40px;
+  display: grid;
+  width: 80%;
+  max-width: 100%;
+  margin-left: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(9em, 1fr));
+  grid-gap: 149px;
+  row-gap: 13px;
+}
+
+.boxstyle{
+  z-index: 2;
+  opacity: 1;
+  
+  padding-left: 5px;
+  padding-top: 15px;
+  height: 290px;
+  width: 290px;
+  background-color: rgba(48, 209, 224, 0.2);
+  border-radius: 45px;
+  border-color: rgb(245, 229, 7);
+  border:2px;
+  border-style: solid;
+}
+
+.project-name{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+img{
+  width:245px;
+  height:200px;
+  border-radius: 10%;
+}
+.boxstyle:hover{
+  animation-name: changebordercolor;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  
+}
+
+.openModalbutton{
+  background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+}
+
+
+
+@keyframes changebordercolor {
+  0% {border-color: rgb(255, 51, 0);}
+  25% {border-color: rgb(250, 233, 3);}
+  75% {border-color: rgb(255, 0, 0);}
+  100% {border-color: rgb(26, 37, 133); }
+  
+}
+
+
+  @media only screen and (max-width: 414px) {
+    /* For mobile phones: */
+    img{
+      width:320px;
+      height:260px;
+    }
+    .Project-container{ margin-top: 0px;
+        margin-left:10px;
+        height: 500px;
+        width:95%;
+        top: 130px;
+        overflow-y: scroll;
+        
+        }
+        .Skills-container{ margin-top: 0px;
+          margin-left:10px;
+          height: 500px;
+          width:95%;
+          top: 130px;
+          overflow-y: scroll;
+          
+          }
+   .boxstyle{
+    height: 320px;
+    width: 375px;
+   }
+   .project{
+    margin-left:10px;
+   }    
+    }
+
+    @media only screen and (max-width: 375px) {
+      /* For mobile phones: */
+      img{
+        width:305px;
+        height:260px;
+      }
+      .Project-container{ margin-top: 0px;
+          margin-left:10px;
+          height: 500px;
+          width:95%;
+          top: 130px;
+          overflow-y: scroll;
+          scrollbar-color: yellow blue;
+          }
+          .Skills-container{ margin-top: 0px;
+            margin-left:10px;
+            height: 500px;
+            width:95%;
+            top: 130px;
+            overflow-y: scroll;
+            scrollbar-color: yellow blue;
+            }
+     .boxstyle{
+      height: 320px;
+      width: 335px;
+     }
+     .project{
+      margin-left:10px;
+     }    
+      }
+      @media only screen and (max-width: 365px) {
+        /* For mobile phones: */
+        img{
+          width:275px;
+          height:260px;
+        }
+        .Project-container{ margin-top: 0px;
+            margin-left:10px;
+            height: 500px;
+            width:95%;
+            top: 130px;
+            overflow-y: scroll;
+            scrollbar-color: yellow blue;
+            }
+            .Skills-container{ margin-top: 0px;
+              margin-left:10px;
+              height: 500px;
+              width:95%;
+              top: 130px;
+              overflow-y: scroll;
+              scrollbar-color: yellow blue;
+              }
+       .boxstyle{
+        height: 320px;
+        width: 310px;
+       }
+       .project{
+        margin-left:10px;
+       }    
+        }
+  

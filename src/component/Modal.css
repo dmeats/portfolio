@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 10;
+  }
+  
+  .modal-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: rgba(31, 165, 189, 0.678);
+  }
+  
+  .modal-box {
+    position: relative;
+    padding-top: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 80%;
+    width: 70%;
+    overflow-y: auto;
+    background-color: rgb(214, 228, 26);
+    box-shadow: 4 4 3px rgba(231, 10, 10, 0.746);
+    z-index: 11;
+    padding: 40px;
+    border-radius: 45px;
+  }
+  .mobile-modal-box {
+    position: relative;
+    padding-top: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 80%;
+    width: 25%;
+    overflow-y: auto;
+    background-color: rgb(214, 228, 26);
+    box-shadow: 4 4 3px rgba(231, 10, 10, 0.746);
+    z-index: 1001;
+    padding: 40px;
+    border-radius: 45px;
+  }
+  .closebutton{
+    position: absolute;
+    right:5%;
+    top: 5%;
+    color:black;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 45px;
+    background-color: rgb(0, 38, 255);
+    text-align:center;
+    vertical-align: center;
+    cursor: pointer;
+}
+
+.closebutton:hover{
+    background-color: rgb(6, 130, 146);
+    color:white;
+    transition: .5s;
+
+}
+
+@media only screen and (max-width: 375px) {
+  /* For mobile phones: */
+  .modal-box{
+    padding-top: 10px;
+    top: 55%;
+    height: 55%;
+    width:80%;
+    overflow-y: scroll;
+  }
+  .mobile-modal-box{
+    padding-top: 10px;
+    top: 55%;
+    height: 55%;
+    width:80%;
+    overflow-y: scroll;
+  }
+  .closebutton{
+    display: fixed;
+    top:20px;
+    left:25px;
+    width: 35px;
+    height: 35px;
+  }
+     
+  }
+  
+@media only screen and (max-width: 414px) {
+  /* For mobile phones: */
+  .modal-box{
+    padding-top: 10px;
+    top: 55%;
+    height: 55%;
+    width:85%;
+    overflow-y: scroll;
+  }
+  .mobile-modal-box{
+    padding-top: 10px;
+    top: 55%;
+    height: 55%;
+    width:85%;
+    overflow-y: scroll;
+  }
+  .closebutton{
+    display: fixed;
+    top:10px;
+    left:5px;
+    width: 35px;
+    height: 35px;
+  }
+     
+  }

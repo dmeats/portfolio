@@ -1,0 +1,40 @@
+.mobilemodalimg{
+    width: 275px;
+    height: 400px;
+    border-radius: 0px;
+}
+
+.twoimgmobilemodalimg{
+    width: 600px;
+    height: 400px;
+    border-radius: 0px;
+}
+
+.desktopmodalimg{
+    width: 800px;
+    height: 400px;
+    border-radius: 0px;
+}
+.item1 { grid-area: Title; }
+.item2 { grid-area: closebutton; }
+.item3 { grid-area: ProjectImage; }
+.item4 { grid-area: ProjectTechnologies; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'Title Title Title Title'
+    'ProjectImage ProjectImage ProjectImage ProjectImage'
+    'ProjectTechnologies ProjectTechnologies ProjectTechnologies ProjectTechnologies';
+  grid-gap: 3px;
+  background-color: rgb(214, 228, 26);
+  padding: 0px;
+}
+
+.grid-container > div {
+  background-color: rgb(214, 228, 26);
+  text-align: center;
+  padding: 1px 0;
+  font-size: 20px;
+}
