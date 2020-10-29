@@ -18,7 +18,7 @@ export const APPLContext = React.createContext({
 
 function App() {
 
-  const [underlinee, setunderlinee] = useState('about_underline')
+  const [underlinee, setunderlinee] = useState('')
 
   return (
     <APPLContext.Provider value = {{

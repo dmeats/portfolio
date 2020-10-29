@@ -30,7 +30,7 @@ const Skills = () => {
                 <ProjectItem  picture={databaseimg} projectname='Database' tech='SQL, MySQL, ORACLE, SQLSERVER, RESTFULL, REST, ' imagestyle='mobilemodalimg' TopicHeading='Database Technologies:' modalimage={databasemodel} boxsize='mobile-modal-box'/>
                 <ProjectItem  picture={paintimg} projectname='Graphic Design' tech='Blender, Gimp, Paint, PowerPoint' imagestyle='mobilemodalimg' TopicHeading='Grapahic software:' modalimage={paintdetail} boxsize='mobile-modal-box'/>
                 <ProjectItem  picture={codeimg} projectname='Programming' tech='React, Vue, API, JSON, Nodejs, Javascript, VBA, Express, HTML, CSS, CSS-Grid, SQL, SVG' imagestyle='mobilemodalimg' TopicHeading='Programming Languages:' modalimage={codescreen} boxsize='mobile-modal-box'/>
-                <ProjectItem  picture={businessimg} projectname='Business' tech='Process Modeling, Stakeholder Engagement, Business Requirment Docs, Agile, Waterfall, Excel, Powerpoint, Word' imagestyle='mobilemodalimg' TopicHeading='Business Concepts used:' modalimage={processimage} boxsize='mobile-modal-box'/>
+                <ProjectItem  picture={businessimg} projectname='Business' tech='Process Modeling, Stakeholder Engagement, Business Requirement Docs, Agile, Waterfall, Excel, Powerpoint, Word' imagestyle='mobilemodalimg' TopicHeading='Business Concepts used:' modalimage={processimage} boxsize='mobile-modal-box'/>
                
                 </div>
         </div>
