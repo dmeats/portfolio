@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e9a43d34.chunk.css",
+    "main.js": "/portfolio/static/js/main.2a81be07.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2a81be07.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.1508850a.chunk.js": "/portfolio/static/js/2.1508850a.chunk.js",
+    "static/js/2.1508850a.chunk.js.map": "/portfolio/static/js/2.1508850a.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.040edbd92bed389b099ef650914b62d9.js": "/portfolio/precache-manifest.040edbd92bed389b099ef650914b62d9.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.e9a43d34.chunk.css.map": "/portfolio/static/css/main.e9a43d34.chunk.css.map",
+    "static/js/2.1508850a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1508850a.chunk.js.LICENSE.txt",
+    "static/media/Air_quality.png": "/portfolio/static/media/Air_quality.f89ec844.png",
+    "static/media/IOT_manuf.png": "/portfolio/static/media/IOT_manuf.cc9a2c3e.png",
+    "static/media/ProcessMap.png": "/portfolio/static/media/ProcessMap.8e6fd970.png",
+    "static/media/VegApp.png": "/portfolio/static/media/VegApp.48d800ea.png",
+    "static/media/business.png": "/portfolio/static/media/business.c9a60376.png",
+    "static/media/codescreen.png": "/portfolio/static/media/codescreen.ffac9ef5.png",
+    "static/media/dbmodel.png": "/portfolio/static/media/dbmodel.5f6ef621.png",
+    "static/media/digital_dash.png": "/portfolio/static/media/digital_dash.25a99d1b.png",
+    "static/media/drum_machine.png": "/portfolio/static/media/drum_machine.164e7b62.png",
+    "static/media/groceryapp.png": "/portfolio/static/media/groceryapp.f8ad0e04.png",
+    "static/media/large_Gear.png": "/portfolio/static/media/large_Gear.fe47d6a4.png",
+    "static/media/App.css": "/portfolio/static/media/planet.29a9d224.png",
+    "static/media/paintboard.png": "/portfolio/static/media/paintboard.79e3223b.png",
+    "static/media/paintdetailimg.png": "/portfolio/static/media/paintdetailimg.08f652c5.png",
+    "static/media/power_app.png": "/portfolio/static/media/power_app.32c173bb.png",
+    "static/media/programming.png": "/portfolio/static/media/programming.6336825e.png",
+    "static/media/zone_con.png": "/portfolio/static/media/zone_con.dfc9d935.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.1508850a.chunk.js",
+    "static/css/main.e9a43d34.chunk.css",
+    "static/js/main.2a81be07.chunk.js"
+  ]
+}
