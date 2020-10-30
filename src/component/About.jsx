@@ -9,16 +9,16 @@ const About = () => {
 
     return(
         <div className='container'>
-        <div className='Name'>
-        <p>DAVID MEATS</p>
-        </div>
-        <div className='Title'>
-        <p>FULLSTACK DEVELOPER</p>
-        </div>
-        <div className='About'>
-        <p>Space enthusiast who likes to cook, bake and garden
-</p>
-        </div>
+                <div className='Name'>
+                <p>DAVID MEATS</p>
+                </div>
+                <div className='Title'>
+                <p>FULLSTACK DEVELOPER</p>
+                </div>
+                <div className='About'>
+                <p>Space enthusiast who likes to cook, bake and garden
+                </p>
+                </div>
         </div>
     )
 }

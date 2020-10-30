@@ -18,7 +18,10 @@ const Projects = () => {
     //'underlinee' sets a style for projects
     const aPPLContext = useContext(APPLContext)
     let underlinee = 'projects_underline'
+    let aboutinfo = 'about-hide'
     aPPLContext.ChangeUnderline(underlinee)
+
+    aPPLContext.ChangeAboutinfo(aboutinfo)
 
     return(
         <div>

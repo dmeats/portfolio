@@ -50,6 +50,9 @@
   
   
 }
+.about-hide{
+  visibility: hidden;
+}
 
 @keyframes example {
   0% {color: rgb(0, 4, 255);}
