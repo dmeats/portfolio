@@ -182,6 +182,30 @@
   
 }
 
+@media only screen and (min-width: 766px) {
+  /* For mobile phones: */
+  
+  .Name{ margin-top: 0px;
+    position: fixed;
+    font-size: 65px;
+    top: 30%;
+    left: 10.5%;
+      }
+      .Title{ margin-top: 0px;
+        position: fixed;
+        font-size: 50px;
+        top: 38%;
+        left: 2%;
+          }
+          .About{ margin-top: 0px;
+            position: fixed;
+            font-size: 20px;
+            top: 45%;
+            left: 8.5%;
+              }
+  
+}
+
 @media only screen and (min-width: 1280px) {
   /* For mobile phones: */
   
