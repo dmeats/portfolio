@@ -16,7 +16,7 @@ const About = () => {
                 <p>FULLSTACK DEVELOPER</p>
                 </div>
                 <div className='About'>
-                <p>Space enthusiast who likes to cook, bake and garden
+                <p>AI enthusiast who likes to cook, bake and garden
                 </p>
                 </div>
         </div>
