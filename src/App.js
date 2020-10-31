@@ -10,10 +10,10 @@ import CanvasStarfield from './component/CanvasStarfield'
 import './App.css';
 
 export const APPLContext = React.createContext({
-  Message: '',
+  
   underlinee:'',
   aboutinfo:'',
-  ChangeMessage: () => {},
+ 
   ChangeUnderline: ()  => {},
   ChangeAboutinfo: ()  => {},
   
