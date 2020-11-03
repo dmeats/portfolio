@@ -244,9 +244,16 @@
         color: rgb(231, 74, 12); 
       }
   }
+
+
   
 @media only screen and (min-width: 766px) {
     .Navv{
         color: rgb(231, 74, 12); 
       }
+}
+@media only screen and (min-width: 1060px) {
+    .Navv{
+        color: rgb(34, 134, 165);
+    }
 }
