@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2fe902f74934d66f961e024d0e74cad5",
+    "revision": "a5fc587c9e8c3b4b128f29c44e5e7f26",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "32fe0b9203004eed7a45",
+    "revision": "3062891e339c5b7f2e91",
     "url": "/portfolio/static/css/main.491ee180.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.19689a9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32fe0b9203004eed7a45",
-    "url": "/portfolio/static/js/main.c96954f4.chunk.js"
+    "revision": "3062891e339c5b7f2e91",
+    "url": "/portfolio/static/js/main.d879a1ec.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/VegApp.48d800ea.png"
   },
   {
-    "revision": "c9a603766c8424cc95d10b5af2c09684",
-    "url": "/portfolio/static/media/business.c9a60376.png"
+    "revision": "472a0d9cf1825f38408ef0e7103a2e1a",
+    "url": "/portfolio/static/media/buss.472a0d9c.png"
   },
   {
     "revision": "ffac9ef573eb7114244cedcdf9d36f5c",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/mobileplanet.77822c86.png"
   },
   {
-    "revision": "79e3223bf1b6958102fec99c2e14a1f9",
-    "url": "/portfolio/static/media/paintboard.79e3223b.png"
+    "revision": "bd23f745e7d17b51305f50d408a93b5b",
+    "url": "/portfolio/static/media/paintboard2.bd23f745.png"
   },
   {
     "revision": "08f652c59889e88622fca71d9be2d596",
@@ -86,10 +86,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "32c173bb84adc35645aa6afe671847d3",
     "url": "/portfolio/static/media/power_app.32c173bb.png"
-  },
-  {
-    "revision": "6336825e4cae989a4edef26aed699dbe",
-    "url": "/portfolio/static/media/programming.6336825e.png"
   },
   {
     "revision": "dfc9d935d9ed0d98a3b52214bf43d751",
