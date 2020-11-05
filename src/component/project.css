@@ -117,24 +117,24 @@ img{
       height:260px;
     }
     .Project-container{ margin-top: 0px;
-        margin-left:10px;
+        margin-left:20px;
         height: 500px;
-        width:95%;
-        top: 130px;
+        width:90%;
+        top: 170px;
         overflow-y: scroll;
         
         }
         .Skills-container{ margin-top: 0px;
-          margin-left:10px;
+          margin-left:20px;
           height: 500px;
-          width:95%;
-          top: 130px;
+          width:90%;
+          top: 170px;
           overflow-y: scroll;
           
           }
    .boxstyle{
     height: 320px;
-    width: 375px;
+    width: 350px;
    }
    .project{
     margin-left:10px;
@@ -202,3 +202,33 @@ img{
        }    
         }
   
+        @media only screen and (max-width: 320px) {
+          /* For mobile phones: */
+          img{
+            width:240px;
+            height:260px;
+          }
+          .Project-container{ margin-top: 0px;
+              margin-left:10px;
+              height: 500px;
+              width:89%;
+              top: 130px;
+              overflow-y: scroll;
+              scrollbar-color: yellow blue;
+              }
+              .Skills-container{ margin-top: 0px;
+                margin-left:10px;
+                height: 500px;
+                width:95%;
+                top: 130px;
+                overflow-y: scroll;
+                scrollbar-color: yellow blue;
+                }
+         .boxstyle{
+          height: 320px;
+          width: 260px;
+         }
+         .project{
+          margin-left:5px;
+         }    
+          }

@@ -33,7 +33,7 @@
     min-height: 80%;
     width: 70%;
     overflow-y: auto;
-    background-color: rgb(214, 228, 26);
+    background-color: rgb(81, 82, 73);
     box-shadow: 4 4 3px rgba(231, 10, 10, 0.746);
     z-index: 11;
     padding: 40px;
@@ -48,7 +48,7 @@
     min-height: 80%;
     width: 25%;
     overflow-y: auto;
-    background-color: rgb(214, 228, 26);
+    background-color: rgb(81, 82, 73);
     box-shadow: 4 4 3px rgba(231, 10, 10, 0.746);
     z-index: 1001;
     padding: 40px;
