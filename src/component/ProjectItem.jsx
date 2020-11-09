@@ -47,7 +47,7 @@ const ProjectItem = (props) => {
                 <img src={modalimage} className={imagestyle}/>
             </div>
             <div className='item4'>                
-                            <p className="project-name"><h2>{TopicHeading}</h2>{tech}</p>
+                            <p ><h2>{TopicHeading}</h2>{tech}</p>
             </div>         
        </div>           
         </Modal>

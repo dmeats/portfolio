@@ -18,7 +18,8 @@
 .item1 { grid-area: Title; }
 .item2 { grid-area: closebutton; }
 .item3 { grid-area: ProjectImage; }
-.item4 { grid-area: ProjectTechnologies; }
+.item4 { grid-area: ProjectTechnologies;
+         color: white; }
 
 
 .grid-container {
@@ -38,5 +39,5 @@
   text-align: center;
   padding: 1px 0;
   font-size: 20px;
-  color:white;
+ 
 }
